@@ -6,6 +6,7 @@
   gap: 10px;
   background: #dde5b6;
   font-size: 18px;
+  position: relative;
 }
 
 .list-add {
@@ -18,6 +19,9 @@
   background: #6c584c;
   color: #fff;
   font-size: 24px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
 }
 
 .list-overlay {
@@ -26,4 +30,13 @@
   backdrop-filter: blur(2px);
   color: #fff;
   text-align: center;
+  position: relative;
+  display: flex;
+  height: 130px;
+  padding: 10px 21px 100px 21px;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
